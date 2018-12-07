@@ -18,7 +18,7 @@ session_start();
     <div class="container">
         <div class="login-box">
         <div class="row">
-
+            <form action="randevu-ekle.php" method="post">
             <div class="col-md-6 login-left">
                 <h2>Bilgiler</h2>
                 
@@ -27,7 +27,7 @@ session_start();
                        
                     </div>
                     <div class="form-group">
-                       <label>05307075454</label>
+                       <label>05428932873</label>
                         
                     </div>
                     <div class="form-group">
@@ -35,9 +35,10 @@ session_start();
 					</label>
                        
                     </div>
-                    <button type="submit" class="btn btn-primary">Randevu Al</button>
+                    <button type="submit"  class="btn btn-primary">Randevu Al</button>
                
             </div>
+            </form>
         </div>
 
     </div>
